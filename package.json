@@ -1,0 +1,12 @@
+{
+  "name": "goose-maverick",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "npx tailwindcss -i ./static/css/input.css -o ./static/css/tailwind.css --minify"
+  },
+  "dependencies": {
+    "tailwindcss": "^3.4.1",
+    "chart.js": "^4.4.1",
+    "socket.io-client": "^4.7.5"
+  }
+}
